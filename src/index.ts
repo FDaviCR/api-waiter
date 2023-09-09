@@ -8,6 +8,7 @@ mongoose.connect('mongodb://127.0.0.1:27017')
 		console.log('Conectado ao MongoDB');
 		const app = express();
 
+		app.use(express.json());
 		app.use(router);
 
 		app.listen(7777, ()=>{
