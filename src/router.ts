@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { listCategories } from './useCases/categories/listCategories';
+import { listCategories } from './app/useCases/categories/listCategories';
 
 export const router = Router();
 
